@@ -1,6 +1,6 @@
-class Movie < ApplicationRecord
+class Movie
 
-    attr_accessor :title, :year, :rating, :duration
+	attr_accessor :title, :year, :rating, :duration
 
 	def initialize(title, year, rating, duration=0)
 		@title = title
@@ -8,5 +8,5 @@ class Movie < ApplicationRecord
 		@rating = rating
 		@duration = duration.to_i
 	end
-    
+
 end
