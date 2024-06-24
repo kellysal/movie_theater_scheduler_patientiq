@@ -4,6 +4,6 @@
 
 class IntervalTime
 	PREVIEW_TIME = 15
-    PREPARE_TIME = 20
+	PREPARE_TIME = 20
 	OPENING_TIME = 15
 end
