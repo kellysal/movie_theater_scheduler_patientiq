@@ -25,7 +25,9 @@ Here is a list of rules that are global to the cinema:
 * No movie should end after the cinema’s hours of operation
 * The last showing should end as close as possible to the end of the cinema’s hours
 of operation
-Hours of Operation
+
+### Hours of Operation
+
 The theater has the following hours of operation:
 * Monday - Thursday 11am - 11pm
 * Friday - Sunday 10:30 am - 12 am
