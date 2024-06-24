@@ -8,8 +8,9 @@ RSpec.describe "Movies", type: :request do
   describe "POST /movies" do
     it "returns http success" do
       
-  		headers = { "ACCEPT" => "application/json" }
-    	post "/movies",
+      headers = { "ACCEPT" => "application/json" }
+      
+      post "/movies",
       :params => data,
       :headers => headers,
       as: :json
